@@ -20,8 +20,9 @@
         </activity>
         <activity
             android:name=".RecyclerActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/playlist"
+            android:theme="@style/AppTheme.PlaylistTheme"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

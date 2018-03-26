@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onRestoreInstanceState(savedInstanceState);
         POSITION = savedInstanceState.getInt("POSITION");
         PROGRESS = savedInstanceState.getInt("PROGRESS");
-        GET_PROGRESS = savedInstanceState.getInt("GET_PROGRESS");
+        GET_PROGRESS = savedInstanceState.getInt("GET_PROGREgSS");
         CLICKED = savedInstanceState.getBoolean("CLICKED");
         bindViewsToSong(positionLogic());
         if (CLICKED) {
@@ -161,8 +161,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.button:
-                Intent intent = new Intent(this, RecyclerActivity.class);
-                startActivity(intent);
+                Intent recyclerViewIntent = new Intent(this, RecyclerActivity.class);
+                startActivity(recyclerViewIntent);
         }
     }
 
