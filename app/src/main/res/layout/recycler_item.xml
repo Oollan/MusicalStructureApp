@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded">
+
+    <TextView
+        android:id="@+id/ITEM_songTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:textColor="@color/gray"
+        tools:text="@string/song_example" />
+
+    <TextView
+        android:id="@+id/ITEM_artistTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_size"
+        android:layout_marginTop="@dimen/default_margin"
+        android:textColor="@color/gray"
+        tools:text="@string/artist_example" />
+
+    <TextView
+        android:id="@+id/ITEM_albumTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_margin"
+        android:layout_marginLeft="@dimen/fab_size"
+        android:layout_marginTop="@dimen/default_margin"
+        android:textColor="@color/gray"
+        tools:text="@string/album_example" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_margin"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>

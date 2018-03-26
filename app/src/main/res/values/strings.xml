@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="song_example">Song Example</string>
+    <string name="artist_example">Artist Example</string>
+    <string name="album_example">Album Example</string>
+    <string name="image_example">Image Example</string>
+    <string name="playlist">Playlist</string>
+</resources>
